@@ -1,10 +1,5 @@
 const inputFile = document.getElementById('input-file');
 const dropZone = document.getElementById('drop-zone');
-const BASE_DATE = 0;
-const YEAR_INDEX = 0;
-const MONTH_INDEX = 1;
-const DAY_INDEX = 2;
-const EXCLUSION_ZERO_INDEX = 1;
 const renamedFiles = [];
 
 inputFile.addEventListener("change", (e) => {
